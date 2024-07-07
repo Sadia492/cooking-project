@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+}
+/* shared styles */
+.btn-primary button {
+  background-color: #52c303;
+  color: white;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 5px;
+}
+
+/* header section */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/hero-bg.png");
+  background-size: cover;
+  height: 707px;
+  background-position: center;
+}
+.header-description {
+  margin: 202px 427px 202px 263px;
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 12px;
+  letter-spacing: 0%;
+  color: white;
+  opacity: 80%;
+}
+.title {
+  font-weight: 700;
+  font-size: 49px;
+  color: white;
+  letter-spacing: 0%;
+  padding-bottom: 18px;
+}
+.description {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 0%;
+  opacity: 70%;
+  padding-bottom: 24px;
+}
+/* offer section */
+.offer p,
+h3 {
+  color: black;
+}

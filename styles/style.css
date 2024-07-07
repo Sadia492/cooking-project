@@ -114,3 +114,64 @@ header {
   color: rgb(16, 16, 16);
   opacity: 70%;
 }
+/* review section */
+.review img {
+  width: 739px;
+  height: 516px;
+}
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-review h2 {
+  font-size: 38px;
+  font-weight: 700;
+  padding-bottom: 18px;
+}
+.follow-review p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(16, 16, 16);
+  opacity: 60%;
+}
+.follow-review h4 {
+  font-size: 24px;
+  opacity: 70%;
+  color: rgb(16, 16, 16);
+  font-weight: 600;
+  padding-top: 36px;
+  padding-bottom: 24px;
+}
+.follow-review {
+  margin: 0 59px 0 59px;
+  text-align: center;
+}
+.review i {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  padding-right: 24px;
+}
+.facebook {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 178, 255, 1) 0%,
+    rgba(0, 106, 255, 1) 100%
+  );
+}
+.instagram {
+  background-clip: text;
+  color: transparent;
+
+  background-image: radial-gradient(
+    circle,
+    rgba(250, 143, 33, 1) 0%,
+    rgba(216, 45, 126, 1) 77%
+  );
+}
+.pinterest {
+  color: #e13138;
+}

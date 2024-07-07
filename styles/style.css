@@ -60,6 +60,57 @@ header {
 }
 /* offer section */
 .offer p,
-h3 {
+.offer h2 {
   color: black;
+  text-align: center;
+}
+.items {
+  display: flex;
+  justify-content: center;
+}
+.offer {
+  margin: 128px 231px 137px 231px;
+}
+.items img {
+  width: 326px;
+  height: 217px;
+}
+.offer h2 {
+  margin: 12px 241px 36px 241px;
+  font-size: 36px;
+}
+.offer p {
+  font-size: 18px;
+  color: rgb(16, 16, 16);
+  opacity: 60%;
+}
+.offer .btn-primary {
+  text-align: center;
+  padding-top: 49px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item span {
+  text-transform: capitalize;
+  background-color: rgba(82, 195, 3, 0.15);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 24px 10px 24px;
+  margin-bottom: 18px;
+}
+.item h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.item p {
+  font-weight: 500;
+  font-size: 13px;
+  padding-right: 18px;
+  color: rgb(16, 16, 16);
+  opacity: 70%;
 }

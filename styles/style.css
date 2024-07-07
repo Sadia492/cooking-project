@@ -31,6 +31,7 @@ header {
   background-size: cover;
   height: 707px;
   background-position: center;
+  border: 2px dashed rgb(183, 181, 181);
 }
 .header-description {
   margin: 202px 427px 202px 263px;
@@ -70,6 +71,7 @@ header {
 }
 .offer {
   margin: 128px 231px 137px 231px;
+  border: 2px dashed rgb(183, 181, 181);
 }
 .items img {
   width: 326px;
@@ -174,4 +176,93 @@ header {
 }
 .pinterest {
   color: #e13138;
+}
+/* pizza section */
+.pizza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 326px;
+  height: 504px;
+  border: 2px dashed rgb(183, 181, 181);
+  text-align: center;
+  margin: 166px auto;
+}
+.pizza img {
+  width: 326px;
+  height: 217px;
+}
+.pizza span {
+  text-transform: capitalize;
+  background-color: rgba(82, 195, 3, 0.15);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 24px 10px 24px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+}
+.pizza h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 18px;
+}
+.pizza p {
+  color: rgb(16, 16, 16);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+
+  text-align: center;
+
+  opacity: 70%;
+  padding-bottom: 30px;
+}
+.pizza button {
+  margin-bottom: 45px;
+}
+/* footer section */
+.social {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url("../assets/foods.png");
+  height: 516px;
+  background-size: cover;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social h2 {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 18px;
+  padding: 0 433px 18px 433px;
+  text-align: center;
+}
+.social p {
+  font-size: 18px;
+  opacity: 0.6;
+  padding-bottom: 60px;
+}
+.social h4 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin-bottom: 47px;
+  width: 100%;
+  border-top: 2px solid rgb(183, 181, 181);
+  border-bottom: 2px solid rgb(183, 181, 181);
+  text-align: center;
+  padding: 10px 0;
+}
+footer i {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  padding-right: 24px;
 }
